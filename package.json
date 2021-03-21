@@ -1,0 +1,22 @@
+{
+    "name": "hex",
+    "displayName": "HEX",
+    "description": "hex color theme, designed for use with rust",
+    "version": "0.0.1",
+    "publisher": "PORTALSURFER",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "HEX",
+                "uiTheme": "vs-dark",
+                "path": "./themes/HEX-color-theme.json"
+            }
+        ]
+    }
+}
