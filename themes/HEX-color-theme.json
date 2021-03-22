@@ -215,7 +215,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#826f62",
+				"foreground": "#4e4e4e",
 				"fontStyle": "italic"
 			}
 		},
@@ -248,21 +248,18 @@
 				"entity.name.type",
 				"support.type.primitive",
 				"support.type.builtin",
-				"meta.type.annotation entity.name.type",
-				"meta.type.parameters entity.name.type"
 			],
 			"settings": {
-				"foreground": "#adadad"
+				"foreground": "#94aac4"
 			}
 		},
 		{
 			"scope": [
 				"keyword.control",
-				"keyword.operator",
 				"storage",
 				"support.type",
 				"keyword.operator.expression",
-				"keyword.operator.new"
+				"keyword.operator.new",
 			],
 			"settings": {
 				"foreground": "#a8a8a8"
@@ -270,7 +267,6 @@
 		},
 		{
 			"scope": [
-				"entity.name.function",
 				"support.class",
 				"support.function",
 				"new.expr entity.name.type",
@@ -329,7 +325,7 @@
 			}
 		},
 		{
-			"scope": "comment.block.documentation entity.name.type",
+			"scope": "comment.block.documentation",
 			"settings": {
 				"foreground": "#4a4545",
 			}
@@ -604,7 +600,7 @@
 				"punctuation.semi.rust"
 			],
 			"settings": {
-				"foreground": "#ffffffcc"
+				"foreground": "#6847ffec"
 			}
 		},
 		{
@@ -613,7 +609,7 @@
 				"entity.name.type.rust"
 			],
 			"settings": {
-				"foreground": "#c7c7c7ad",
+				"foreground": "#d3b79fad",
 				"fontStyle": "bold"
 			}
 		},
@@ -647,28 +643,17 @@
 		},
 		{
 			"scope": [
-				"entity.name.function.rust",
+				"entity.name.function",
 			],
 			"settings": {
-				"foreground": "#eeeeee"
-			}
-		},
-		{
-			// Operator
-			"scope": [
-				"keyword.operator",
-			],
-			"settings": {
-				"foreground": "#eeeeee"
+				"foreground": "#e5f13a"
 			}
 		},
 		{
 			// Borrow
-			"scope": [
-				"keyword.operator.borrow.and.rust",
-			],
+			"scope": "keyword.operator.borrow.and",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#fc7d16"
 			}
 		},
 		{
@@ -677,7 +662,7 @@
 				"variable.other.rust",
 			],
 			"settings": {
-				"foreground": "#6b6b6b"
+				"foreground": "#6a7f81"
 			}
 		},
 		{
@@ -690,7 +675,7 @@
 		{
 			"scope": "keyword.other.rust",
 			"settings": {
-				"foreground": "#f7f7f7",
+				"foreground": "#6bddbb",
 				"fontStyle": "bold"
 			}
 		}
@@ -698,7 +683,7 @@
 	// Special Rust tokens Rust-Analyzer
 	"semanticTokenColors": {
 		"keyword.unsafe": {
-			"foreground": "#ff0000",
+			"foreground": "#e95732",
 		},
 		// MUTABLES -- With Rust Analyzer
 		"*.mutable": {
@@ -709,10 +694,10 @@
 			"fontStyle": "bold"
 		},
 		//Variable 
-		"colon": {
-			"foreground": "#ffffff",
-			"fontStyle": "bold"
-		},
+		// "colon": {
+		// 	"foreground": "#ffffff",
+		// 	"fontStyle": "bold"
+		// },
 		//Types
 		// "type": {
 		// 	"foreground": "#ffffff",
@@ -812,7 +797,7 @@
 		// 	"foreground": "#ff07ea"
 		// },
 		"enum": {
-			"foreground": "#adadad"
+			"foreground": "#d1c28f"
 		},
 		// "enumMember": {
 		// 	"foreground": "#ff07ea"
