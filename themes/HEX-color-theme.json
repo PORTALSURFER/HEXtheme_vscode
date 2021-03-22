@@ -926,5 +926,74 @@
 		"stringEscapeCharacter": {
 			"foreground": "#ff07ea"
 		},
+		"stringLiteral": {
+			"foreground": "#ff07ea"
+		},
+		"stringVerbatim": {
+			"foreground": "#ff07ea"
+		},
+		"struct": {
+			"foreground": "#ff07ea"
+		},
+		"templateFunction": {
+			"foreground": "#ff07ea"
+		},
+		"templateType": {
+			"foreground": "#ff07ea"
+		},
+		"tomlArrayKey": {
+			"foreground": "#ff07ea"
+		},
+		"tomlTableKey": {
+			"foreground": "#ff07ea"
+		},
+		"typeAlias": {
+			"foreground": "#ff07ea"
+		},
+		"typeParameter": {
+			"foreground": "#ff07ea"
+		},
+		"union": {
+			"foreground": "#ff07ea"
+		},
+		"unresolvedReference": {
+			"foreground": "#ff07ea"
+		},
+		"valueType": {
+			"foreground": "#ff07ea"
+		},
+		"variable": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentAttributeName": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentText": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentAttributeQuotes": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentProcessingInstruction": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentComment": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentAttributeValue": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentCDataSection": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentDelimiter": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentEntityReference": {
+			"foreground": "#ff07ea"
+		},
+		"xmlDocCommentName": {
+			"foreground": "#ff07ea"
+		},
 	}
 }
