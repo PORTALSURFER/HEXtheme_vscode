@@ -199,7 +199,6 @@
 		},
 		{
 			"scope": [
-				"variable",
 				"support.variable.property.dom",
 				"support.variable.dom",
 				"support.variable.property",
@@ -278,7 +277,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#dfdfdff3",
+				"foreground": "#e9e9e9",
 			}
 		},
 		{
@@ -597,8 +596,9 @@
 		{
 			// Brackets, Scope
 			"scope": [
-				"punctuation.brackets.round.rust",
-				"punctuation.brackets.curly.rust",
+				"punctuation.brackets.round",
+				"punctuation.brackets.curly",
+				"punctuation.brackets.angle",
 				"entity.name.type.lifetime.rust",
 				"punctuation.definition.lifetime.rust",
 				"punctuation.semi.rust"
@@ -613,7 +613,8 @@
 				"entity.name.type.rust"
 			],
 			"settings": {
-				"foreground": "#c7c7c7ad"
+				"foreground": "#c7c7c7ad",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -646,6 +647,14 @@
 			}
 		},
 		{
+			"scope": [
+				"entity.name.function.rust",
+			],
+			"settings": {
+				"foreground": "#eeeeee"
+			}
+		},
+		{
 			// Operator
 			"scope": [
 				"keyword.operator",
@@ -663,6 +672,22 @@
 				"foreground": "#ffffff"
 			}
 		},
+		{
+			// Borrow
+			"scope": [
+				"variable.other.rust",
+			],
+			"settings": {
+				"foreground": "#6b6b6b"
+			}
+		},
+		{
+			"scope": "entity.name.type.result.rust",
+			"settings": {
+				"foreground": "#e6e6e6",
+				"fontStyle": "bold"
+			}
+		}
 	],
 	// Special Rust tokens Rust-Analyzer
 	"semanticTokenColors": {
