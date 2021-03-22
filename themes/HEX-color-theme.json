@@ -297,7 +297,7 @@
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#6c7868"
+				"foreground": "#bebebe"
 			}
 		},
 		{
@@ -601,6 +601,7 @@
 				"punctuation.brackets.curly.rust",
 				"entity.name.type.lifetime.rust",
 				"punctuation.definition.lifetime.rust",
+				"punctuation.semi.rust"
 			],
 			"settings": {
 				"foreground": "#ffffffcc"
@@ -666,7 +667,7 @@
 	// Special Rust tokens Rust-Analyzer
 	"semanticTokenColors": {
 		"keyword.unsafe": {
-			"foreground": "#ffffff",
+			"foreground": "#ff0000",
 		},
 		// MUTABLES -- With Rust Analyzer
 		"*.mutable": {
@@ -676,324 +677,324 @@
 			"foreground": "#ff0000",
 			"fontStyle": "bold"
 		},
-		// Variable 
+		//Variable 
 		"colon": {
 			"foreground": "#ffffff",
 			"fontStyle": "bold"
 		},
-		// Types
+		//Types
 		"type": {
 			"foreground": "#ffffff",
 			"fontStyle": "bold"
 		},
-		"*.abstract": {
-			"foreground": "#ff07ea"
-		},
-		"*.async": {
-			"foreground": "#ff07ea"
-		},
+		// "*.abstract": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.async": {
+		// 	"foreground": "#ff07ea"
+		// },
 		"*.attribute": {
-			"foreground": "#ff07ea"
-		},
-		"selfKeyword": {
-			"foreground": "#ff07ea"
-		},
-		"*.callable": {
-			"foreground": "#ff07ea"
-		},
-		"*.constant": {
-			"foreground": "#ff07ea"
-		},
-		"number": {
-			"foreground": "#ff07ea"
-		},
-		"*.consuming": {
-			"foreground": "#ff07ea"
-		},
-		"*.controlFlow": {
-			"foreground": "#ff07ea"
-		},
-		"*.declaration": {
-			"foreground": "#ff07ea"
-		},
-		"*.documentation": {
-			"foreground": "#ff07ea"
-		},
-		"*.global": {
-			"foreground": "#ff07ea"
-		},
-		"*.local": {
-			"foreground": "#ff07ea"
-		},
-		"*.modification": {
-			"foreground": "#ff07ea"
-		},
-		"*.readonly": {
-			"foreground": "#ff07ea"
-		},
-		"*.static": {
-			"foreground": "#ff07ea"
-		},
-		"*.unsafe": {
-			"foreground": "#ff07ea"
-		},
-		"angle": {
-			"foreground": "#ff07ea"
-		},
-		"attribute": {
-			"foreground": "#ff07ea"
-		},
-		"boolean": {
-			"foreground": "#ff07ea"
-		},
-		"brace": {
-			"foreground": "#ff07ea"
-		},
-		"bracket": {
-			"foreground": "#ff07ea"
-		},
-		"builtinType": {
-			"foreground": "#ff07ea"
-		},
-		"class": {
-			"foreground": "#ff07ea"
-		},
-		"cliProperty": {
-			"foreground": "#ff07ea"
-		},
-		"comma": {
-			"foreground": "#ff07ea"
-		},
-		"comment": {
-			"foreground": "#ff07ea"
-		},
-		"controlKeyword": {
-			"foreground": "#ff07ea"
-		},
-		"customLiteral": {
-			"foreground": "#ff07ea"
-		},
-		"delegate": {
-			"foreground": "#ff07ea"
-		},
-		"dot": {
-			"foreground": "#ff07ea"
-		},
-		"enum": {
-			"foreground": "#ff07ea"
-		},
-		"enumMember": {
-			"foreground": "#ff07ea"
-		},
-		"event": {
-			"foreground": "#ff07ea"
-		},
-		"excludedCode": {
-			"foreground": "#ff07ea"
-		},
-		"extensionMethod": {
-			"foreground": "#ff07ea"
-		},
-		"field": {
-			"foreground": "#ff07ea"
-		},
-		"formatSpecifier": {
-			"foreground": "#ff07ea"
-		},
-		"function": {
-			"foreground": "#ff07ea"
-		},
-		"genericType": {
-			"foreground": "#ff07ea"
-		},
-		"interface": {
-			"foreground": "#ff07ea"
-		},
-		"keyword": {
-			"foreground": "#ff07ea"
-		},
-		"label": {
-			"foreground": "#ff07ea"
-		},
-		"newOperator": {
-			"foreground": "#ff07ea"
-		},
-		"namespace": {
-			"foreground": "#ff07ea"
-		},
-		"module": {
-			"foreground": "#ff07ea"
-		},
-		"method": {
-			"foreground": "#ff07ea"
-		},
-		"memberOperatorOverload": {
-			"foreground": "#ff07ea"
-		},
-		"lifetime": {
-			"foreground": "#ff07ea"
-		},
-		"markupTagDelimiter": {
-			"foreground": "#ff07ea"
-		},
-		"local": {
-			"foreground": "#ff07ea"
-		},
-		"macro": {
-			"foreground": "#ff07ea"
-		},
-		"markupAttribute": {
-			"foreground": "#ff07ea"
-		},
-		"markupComment": {
-			"foreground": "#ff07ea"
-		},
-		"markupCommentPunctuation": {
-			"foreground": "#ff07ea"
-		},
-		"markupElement": {
-			"foreground": "#ff07ea"
-		},
-		"markupOperator": {
-			"foreground": "#ff07ea"
-		},
-		"numberLiteral": {
-			"foreground": "#ff07ea"
-		},
-		"operator": {
-			"foreground": "#ff07ea"
-		},
-		"operatorOverload": {
-			"foreground": "#ff07ea"
-		},
-		"operatorOverloaded": {
-			"foreground": "#ff07ea"
-		},
-		"parameter": {
-			"foreground": "#ff07ea"
-		},
-		"parenthesis": {
-			"foreground": "#ff07ea"
-		},
-		"plainKeyword": {
-			"foreground": "#ff07ea"
-		},
-		"preprocessorKeyword": {
-			"foreground": "#ff07ea"
-		},
-		"preprocessorText": {
-			"foreground": "#ff07ea"
-		},
-		"property": {
-			"foreground": "#ff07ea"
-		},
-		"punctuation": {
-			"foreground": "#ff07ea"
-		},
-		"razorComment": {
-			"foreground": "#ff07ea"
-		},
-		"razorDirective": {
-			"foreground": "#ff07ea"
-		},
-		"razorDirectiveAttribute": {
-			"foreground": "#ff07ea"
-		},
-		"razorDirectiveColon": {
-			"foreground": "#ff07ea"
-		},
-		"razorTagHelperAttribute": {
-			"foreground": "#ff07ea"
-		},
-		"razorTagHelperElement": {
-			"foreground": "#ff07ea"
-		},
-		"razorTransition": {
-			"foreground": "#ff07ea"
-		},
-		"referenceType": {
-			"foreground": "#ff07ea"
-		},
-		"regexp": {
-			"foreground": "#ff07ea"
-		},
-		"semicolon": {
-			"foreground": "#ff07ea"
-		},
-		"string": {
-			"foreground": "#ff07ea"
-		},
-		"stringEscapeCharacter": {
-			"foreground": "#ff07ea"
-		},
-		"stringLiteral": {
-			"foreground": "#ff07ea"
-		},
-		"stringVerbatim": {
-			"foreground": "#ff07ea"
-		},
-		"struct": {
-			"foreground": "#ff07ea"
-		},
-		"templateFunction": {
-			"foreground": "#ff07ea"
-		},
-		"templateType": {
-			"foreground": "#ff07ea"
-		},
-		"tomlArrayKey": {
-			"foreground": "#ff07ea"
-		},
-		"tomlTableKey": {
-			"foreground": "#ff07ea"
-		},
-		"typeAlias": {
-			"foreground": "#ff07ea"
-		},
-		"typeParameter": {
-			"foreground": "#ff07ea"
-		},
-		"union": {
-			"foreground": "#ff07ea"
-		},
-		"unresolvedReference": {
-			"foreground": "#ff07ea"
-		},
-		"valueType": {
-			"foreground": "#ff07ea"
-		},
-		"variable": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentAttributeName": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentText": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentAttributeQuotes": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentProcessingInstruction": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentComment": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentAttributeValue": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentCDataSection": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentDelimiter": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentEntityReference": {
-			"foreground": "#ff07ea"
-		},
-		"xmlDocCommentName": {
-			"foreground": "#ff07ea"
-		},
+			"foreground": "#535353"
+		},
+		// "selfKeyword": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.callable": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.constant": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "number": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.consuming": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.controlFlow": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.declaration": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.documentation": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.global": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.local": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.modification": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.readonly": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.static": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "*.unsafe": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "angle": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "attribute": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "boolean": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "brace": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "bracket": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "builtinType": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "class": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "cliProperty": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "comma": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "comment": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "controlKeyword": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "customLiteral": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "delegate": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "dot": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "enum": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "enumMember": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "event": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "excludedCode": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "extensionMethod": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "field": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "formatSpecifier": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "function": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "genericType": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "interface": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "keyword": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "label": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "newOperator": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "namespace": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "module": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "method": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "memberOperatorOverload": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "lifetime": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "markupTagDelimiter": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "local": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "macro": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "markupAttribute": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "markupComment": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "markupCommentPunctuation": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "markupElement": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "markupOperator": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "numberLiteral": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "operator": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "operatorOverload": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "operatorOverloaded": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "parameter": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "parenthesis": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "plainKeyword": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "preprocessorKeyword": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "preprocessorText": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "property": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "punctuation": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "razorComment": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "razorDirective": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "razorDirectiveAttribute": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "razorDirectiveColon": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "razorTagHelperAttribute": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "razorTagHelperElement": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "razorTransition": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "referenceType": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "regexp": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "semicolon": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "string": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "stringEscapeCharacter": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "stringLiteral": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "stringVerbatim": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "struct": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "templateFunction": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "templateType": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "tomlArrayKey": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "tomlTableKey": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "typeAlias": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "typeParameter": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "union": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "unresolvedReference": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "valueType": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "variable": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentAttributeName": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentText": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentAttributeQuotes": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentProcessingInstruction": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentComment": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentAttributeValue": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentCDataSection": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentDelimiter": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentEntityReference": {
+		// 	"foreground": "#ff07ea"
+		// },
+		// "xmlDocCommentName": {
+		// 	"foreground": "#ff07ea"
+		// },
 	}
 }
