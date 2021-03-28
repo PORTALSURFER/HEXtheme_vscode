@@ -4,6 +4,7 @@
     "description": "hex color theme, designed for use with rust",
     "version": "0.0.1",
     "publisher": "PORTALSURFER",
+    "repository": "https: //github.com/PORTALSURFER/HEXtheme_vscode",
     "engines": {
         "vscode": "^1.54.0"
     },

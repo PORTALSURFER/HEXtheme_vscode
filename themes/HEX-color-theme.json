@@ -1,5 +1,5 @@
 {
-	"name": "",
+	"name": "hex",
 	"type": "dark",
 	"colors": {
 		"focusBorder": "#F7D307",
@@ -7,7 +7,7 @@
 		"widget.shadow": "#0f0e10",
 		"selection.background": "#F7D30780",
 		"errorForeground": "#eb460f",
-		"textLink.foreground": "#89DFE6",
+		"textLink.foreground": "#d7d8d8",
 		"textLink.activeForeground": "#D7D8D8",
 		"textPreformat.foreground": "#7D7C7A",
 		"textSeparator.foreground": "#100f10",
@@ -220,7 +220,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#cde20d"
+				"foreground": "#f8185b"
 			}
 		},
 		{
@@ -1767,7 +1767,7 @@
 			"name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Link",
 			"scope": "punctuation.definition.metadata.markdown",
 			"settings": {
-				"foreground": "#89dfe6"
+				"foreground": "#ABB2BF"
 			}
 		},
 		{
@@ -1777,7 +1777,7 @@
 				"markup.underline.link.image.markdown"
 			],
 			"settings": {
-				"foreground": "#89dfe6"
+				"foreground": "#ABB2BF"
 			}
 		},
 		{
